@@ -16,7 +16,7 @@ def copy_file(file_name1, file_name2):
 	fh2.seek(0)
 	fh2.write(read_file(file_name1))
 	fh2.close
-arg0,arg1,arg2=argv
+# arg0,arg1,arg2=argv
 # append_file(arg1,arg2)
 # read_file(arg1)
-copy_file(arg1,arg2)
+# copy_file(arg1,arg2)
